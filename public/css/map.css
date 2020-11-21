@@ -1,4 +1,42 @@
+/* mobile first */
+
 .map-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30rem;
+  border: 0.1rem solid #b3dae2;
+  border-radius: 2rem;
+  background-color: #e6f7fb;
+}
+
+.map-container #mapid {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  border-bottom: 1px solid #b3dae2;
+}
+.map-container footer {
+  height: 6.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6f7fb;
+  border-radius: 0 0 2rem 2rem;
+}
+.map-container footer a {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #0089a5;
+}
+
+
+
+@media (min-width: 760px) {
+  .map-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -31,3 +69,4 @@
     color: #0089a5;
   }
   
+}

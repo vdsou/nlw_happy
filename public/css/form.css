@@ -106,7 +106,7 @@ fieldset + fieldset {
   padding-right: 7.1rem;
 }
 
-/* validade */
+/* validation */
 .error{
   margin: 0 auto;
   width: 100%;
@@ -121,5 +121,6 @@ fieldset + fieldset {
 .error p{
   color: #FF669D;
   font-size: 1.8rem;
+  text-align: center;
   font-weight: 800;
 }

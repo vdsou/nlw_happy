@@ -1,3 +1,4 @@
+/* mobile first */
 #page-create-orphanage {
   display: flex;
   min-height: 100vh;
@@ -7,11 +8,13 @@ main {
   width: 100%;
   flex: 1;
   background: #ebf2f5;
+  width:90%;
 }
-
-/* fieldset:nth-child(2){
-    margin-top: 8rem;
-} */
+form{
+  margin-top: 8.4rem;
+  padding: 1rem;
+  width: 90%;
+}
 .map-container {
   border: 0.1rem solid #dde3f0;
   margin-bottom: 4rem;
@@ -28,4 +31,43 @@ main {
 #mapid {
   border: none !important;
   border-radius: 2rem 2rem 0 0 !important;
+}
+#error p{
+  text-align: center;
+}
+/* Desktop */
+@media (min-width: 760px) {
+  #page-create-orphanage {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  main {
+    width: 100%;
+    flex: 1;
+    background: #ebf2f5;
+  }
+  
+  form{
+    margin-top: 8.4rem;
+    padding: 8rem;
+    width: 70rem;
+  }
+  .map-container {
+    border: 0.1rem solid #dde3f0;
+    margin-bottom: 4rem;
+  }
+  .map-container footer {
+    background-color: #f5f8fa;
+    color: #0089a5;
+  }
+  .map-container footer p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 700;
+  }
+  #mapid {
+    border: none !important;
+    border-radius: 2rem 2rem 0 0 !important;
+  }
 }
