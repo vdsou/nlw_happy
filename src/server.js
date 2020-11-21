@@ -12,11 +12,15 @@ server.use(express.static("public"))
 .set("views", path.join(__dirname, "views"))
 .set("view engine", "hbs")
 
-// /orphanages
+// /pages
+
 .get("/", pages.index)
 .get("/orphanages", pages.orphanages)
 .get("/orphanage", pages.orphanage)
 .get("/create-orphanage", pages.createOrphanage)
-.post("/save-orphanage", pages.saveOrphanage)
+.post("/save-orphanage", pages.saveOrphanage);
+server.use((req, res) => {
+    return res.status(404).send("Erro! Página não encontrada.");
+})
 
 server.listen(PORT, e => {console.log("conectado em", PORT)})
