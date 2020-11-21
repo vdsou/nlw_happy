@@ -1,0 +1,31 @@
+#page-create-orphanage {
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  width: 100%;
+  flex: 1;
+  background: #ebf2f5;
+}
+
+/* fieldset:nth-child(2){
+    margin-top: 8rem;
+} */
+.map-container {
+  border: 0.1rem solid #dde3f0;
+  margin-bottom: 4rem;
+}
+.map-container footer {
+  background-color: #f5f8fa;
+  color: #0089a5;
+}
+.map-container footer p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+#mapid {
+  border: none !important;
+  border-radius: 2rem 2rem 0 0 !important;
+}

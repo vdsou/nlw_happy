@@ -1,0 +1,125 @@
+form {
+  width: 70rem;
+  margin: 6.4rem auto;
+  padding: 8rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  border: 0.1rem solid #d3e2e5;
+
+  overflow: hidden;
+}
+
+fieldset {
+  border: none;
+}
+fieldset legend {
+  width: 100%;
+  color: #4d6f80;
+  font-size: 3.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  border-bottom: 1px solid #d3e2e5;
+  margin-bottom: 5rem;
+  padding-bottom: 2.4rem;
+}
+fieldset + fieldset {
+  margin-top: 8rem;
+}
+.input-block + .input-block {
+  margin-top: 2.4rem;
+}
+.input-block label {
+  /* display: block; */
+  color: #8fa7b2;
+  /* margin-bottom: 1rem; */
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+.input-block label span {
+  color: #8fa7b2;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-left: 3.2rem;
+  line-height: 1.5;
+}
+.input-block input,
+.input-block textarea {
+  /* display: block; */
+  width: 100%;
+  padding: 1.8rem 2.4rem;
+  border: 0.1rem solid #d3e2e5;
+  border-radius: 2rem;
+  color: #8fa7b3;
+  background: #f5f8fa;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.input-block input {
+  height: 6.4rem;
+}
+.input-block input:valid,
+.input-block textarea:valid {
+  border: 0.1rem solid #a1e9c5;
+}
+.input-block textarea {
+  resize: vertical;
+  height: 16rem;
+  height: clamp(12rem, 16rem, 24rem);
+  /* height: clamp(6.4rem, 12rem, 16rem); */
+}
+.input-block.images button {
+  width: 100%;
+  height: 6.4rem;
+  border: none;
+  border: 0.1rem dashed #96d2f0;
+  background: #f5f8fa;
+  border-radius: 2rem;
+  margin-top: 1.2rem;
+  cursor: pointer;
+}
+.new-upload {
+  position: relative;
+}
+
+.new-upload + .new-upload{
+  margin-top: 1.2rem;
+}
+
+.new-upload span {
+  position: absolute;
+  right: 1rem;
+  top: 1.3rem;
+  margin-left: 2.1rem;
+  border: 1px solid #d3e2e5;
+  border-radius: 1rem;
+  background: #fff;
+  width: 3.8rem;
+  height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.new-upload input {
+  padding-right: 7.1rem;
+}
+
+/* validade */
+.error{
+  margin: 0 auto;
+  width: 100%;
+  height: 6rem;
+  background: linear-gradient(154.16deg, #FCF0F4 7.85%, #FFFFFF 91.03%);
+  border-radius: 2rem;
+  border: 1px solid #FFBCD4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error p{
+  color: #FF669D;
+  font-size: 1.8rem;
+  font-weight: 800;
+}

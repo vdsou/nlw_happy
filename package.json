@@ -1,0 +1,19 @@
+{
+  "name": "happy",
+  "version": "1.0.0",
+  "description": "learning some web dev (nlw)",
+  "main": "server.js",
+  "author": "vdsou",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "sqlite-async": "^1.1.0"
+  },
+  "scripts": {
+    "dev": "supervisor src/server.js"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
