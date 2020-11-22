@@ -2,7 +2,7 @@
 
 ## This project is just for practicing purpose and it's part of NLW. Yeah, a little too late.
 
-## Things I practiced or learned:
+## Things I've practiced or learned:
 
 * some good arrow functions;
 * a little overview on how async functions work;
