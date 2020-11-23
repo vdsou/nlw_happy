@@ -10,4 +10,4 @@
 * some solving problems and debugging (quite primitive though);
 * some design stuff such as using figma and thinking of how to transform those things into code;
 * improved my css and html skill;
-* the difference from javascript when there are applied on both server and client side
+* the difference from javascript when they're applied on both server and client side
