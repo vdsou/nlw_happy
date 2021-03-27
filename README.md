@@ -1,13 +1,18 @@
-# nlw_happy
+## nlw_happy 😃️
 
-## This project is just for practicing purpose and it's part of NLW. Yeah, a little too late.
+### This project is just for practicing purpose and it's part of NLW. Yeah, a little too late.
 
-## Things I've practiced or learned:
+### Things I've practiced or learned:
 
-* some good arrow functions;
+* some arrow functions stuff;
 * a little overview on how async functions work;
 * discovered how to send data from the back-end up to the view by using handlebars;
-* some solving problems and debugging (quite primitive though);
-* some design stuff such as using figma and thinking of how to transform those things into code;
-* improved my css and html skill;
-* the difference from javascript when they're applied on both server and client side
+* some solving problems => debug code;
+* some "design" related stuff such as using figma for prototyping and how to transform those things into lines of code;
+* improved my javascript, css and html skills;
+* how javascript behave when applied on both server and client side
+
+- [Click here](https://vss-nlw-happy.herokuapp.com/) to access the page!
+
+
+#nlw
